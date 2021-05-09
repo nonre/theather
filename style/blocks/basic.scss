@@ -1,0 +1,76 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #FFFFFF;
+  background: $grey;
+}
+body.lock {
+  overflow: hidden;
+}
+h1 {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 87px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+h2  {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  span {
+    color: $gold;
+  }
+  margin-bottom: 100px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+h4 {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+@media (max-width: 575px) {
+  h1 {
+    font-size: 54px;
+    line-height: 77px;
+  }
+}
+section {
+  padding-top: 150px;
+}
+/* ----- wrapper settings ----- */
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: hidden;
+}
+@media (max-width: 1023px) {
+  .wrapper {
+    max-width: 690px;
+    padding: 0 110px;
+  }
+}
+@media (max-width: 991px) {
+  .wrapper {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper {
+    max-width: 510px;
+    padding: 0 33px;
+  }
+}
+/* ----- end wrapper ----- */

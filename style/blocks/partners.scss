@@ -1,0 +1,10 @@
+.partners__items {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 80px 78px;
+  img {
+    width: 200px;
+    height: 96px;
+  }
+}

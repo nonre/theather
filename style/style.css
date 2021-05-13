@@ -53,6 +53,11 @@ h4 {
     font-size: 54px;
     line-height: 77px;
   }
+
+  h2 {
+    font-size: 40px;
+    line-height: 57px;
+  }
 }
 section {
   padding-top: 150px;
